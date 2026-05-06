@@ -1,0 +1,23 @@
+los comandos usados en esta actividad son:
+git clone
+
+cd
+
+mkdir
+
+ls
+
+touch pregunta-semana2.txt
+touch reflexion-semana2.txt
+touch comandos-terminal.txt (usados para crear los archivos vacios).
+
+nano pregunta-semana2.txt
+nano reflexion-semana2.txt
+nano comandos-terminal.txt
+
+git add .
+git commit -m ""
+git push
+
+
+

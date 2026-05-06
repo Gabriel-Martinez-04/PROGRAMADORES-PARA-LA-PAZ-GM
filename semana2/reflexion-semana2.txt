@@ -1,0 +1,8 @@
+Dominar la terminal es fundamental porque permite al desarrollador interactuar directamente con el núcleo del sistema, 
+ofreciendo una velocidad y precisión imposibles de alcanzar con una interfaz gráfica. 
+A través de la línea de comandos, se pueden automatizar tareas repetitivas mediante scripts, 
+gestionar archivos ocultos de configuración y administrar de forma eficiente herramientas esenciales como Git, 
+gestores de paquetes (npm, pip) o servidores remotos en la nube donde no existe un entorno visual. 
+Esta habilidad no solo optimiza el flujo de trabajo al permitir búsquedas y manipulaciones masivas de datos en segundos,
+sino que también garantiza un control total sobre la estructura del proyecto, reduciendo el consumo de recursos del sistema y proporcionando 
+la flexibilidad necesaria para resolver problemas complejos en entornos de desarrollo profesionales.
