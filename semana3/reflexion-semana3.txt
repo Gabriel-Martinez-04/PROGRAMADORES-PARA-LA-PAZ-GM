@@ -1,0 +1,7 @@
+Mantener un registro de cambios con Git es importante porque te permite saber quién modificó qué, 
+cuándo y por qué (trazabilidad), volver a versiones anteriores si algo falla sin perder trabajo, 
+trabajar en equipo sin pisar los archivos de otros, tener un respaldo automático del código en 
+repositorios remotos, y auditar el historial completo para encontrar errores o demostrar el cumplimiento de procesos.
+Sin un control de versiones, un proyecto de software se vuelve caótico,
+los errores son difíciles de rastrear y colaborar con otros es un dolor de cabeza.
+
