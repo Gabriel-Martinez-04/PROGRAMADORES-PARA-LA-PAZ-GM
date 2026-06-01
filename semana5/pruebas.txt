@@ -1,0 +1,5 @@
+en la primera ruta me sale: servidor funcionando correctamente, aqui no hay incomvenientes.
+
+En la segunda ruta: no se puede obtener saludo.
+
+en la tercera ruta: tambien me sale que no se puede obtener saludo.

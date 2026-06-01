@@ -1,0 +1,14 @@
+¿Qué hace la ruta POST /reporte?
+
+La ruta `app.post('/reporte', ...)` recibe peticiones HTTP con método POST. Espera que el cuerpo de la solicitud sea un objeto JSON que contenga una propiedad llamada "mensaje". Extrae ese valor y responde con otro objeto JSON que incluye dos campos: "estado" (siempre "Reporte recibido") y "mensaje" (el mismo texto que envió el usuario). Es decir, actúa como un eco de confirmación.
+
+Para que funcione, el servidor usa `app.use(express.json())`, que analiza automáticamente el JSON recibido y lo deja disponible en `req.body`.
+
+¿Para qué podría servir en una aplicación comunitaria?
+
+En una herramienta ciudadana, esta ruta podría ser el backend para un formulario de reportes vecinales. Por ejemplo:
+- Los habitantes podrían enviar alertas sobre baches, farolas rotas, fugas de agua o acumulación de basura.
+- Organizaciones de base podrían recibir sugerencias anónimas para mejorar un parque o un centro comunitario.
+- Durante emergencias (inundaciones, incendios), serviría como canal rápido para notificar incidentes con ubicación y descripción.
+
+Como el código es abierto y usa Node.js, la misma comunidad puede extender la ruta para guardar los reportes en una base de datos, agregar geoposición o imágenes, y luego mostrar los problemas en un mapa público. Así se fomenta la transparencia, la participación y la autonomía tecnológica.
